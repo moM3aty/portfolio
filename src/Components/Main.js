@@ -10,8 +10,8 @@ import Contact from './Contact';
 
 const Main = () => {
     return (
-        <div>
-            <main id='main' data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" className="scrollspy-example" tabIndex="0">
+        <div data-aos="fade-zoom-in" data-aos-delay="3000">
+            <main id='main'  data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" className="scrollspy-example" tabIndex="0">
                 <section id="hero" className="SectionActive d-flex flex-column justify-content-center align-items-center">
                     <Hero />
                 </section>
