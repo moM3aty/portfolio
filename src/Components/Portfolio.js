@@ -40,6 +40,7 @@ const [open33, setOpen33] = React.useState(false);
 const [open34, setOpen34] = React.useState(false);
 const [open35, setOpen35] = React.useState(false);
 const [open36, setOpen36] = React.useState(false);
+const [open37, setOpen37] = React.useState(false);
 
     return (
         <div className="container">
@@ -704,6 +705,23 @@ const [open36, setOpen36] = React.useState(false);
                         close={ () => setOpen36( false ) }
                         slides={ [
                                 { src: "/img/portfolio/yellow1.jpg" },
+                            ] } />
+                            <div className="col-lg-4 col-md-6 portfolio-item filter-Design">
+                    <div className="portfolio-wrap">
+                        <img src="/img/portfolio/Id.jpg" className="img-fluid" alt="Card Id"/>
+                        <div className="portfolio-links">
+                            <button  data-gallery="portfolioGallery"    onClick={() => setOpen37(true)} >
+                                <i className="fa-solid fa-eye"></i>
+                            </button>
+                        </div>
+                        </div>
+                    </div>
+                        <Lightbox
+                        open={ open37 }
+                        close={ () => setOpen37( false ) }
+                        slides={ [
+                                { src:"/img/portfolio/Id.jpg" },
+                                {  src:"/img/portfolio/Id2.jpg"}
                             ] } />
                 <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                     <div className="portfolio-wrap-Web">
