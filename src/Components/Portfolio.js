@@ -395,8 +395,8 @@ const [open36, setOpen36] = React.useState(false);
                                 { src: "/img/portfolio/Koko5.jpg" },
                                 { src: "/img/portfolio/Koko6.jpg" },
                                 { src: "/img/portfolio/Koko7.jpg" },
-                                { src: "/img/portfolio/Koko.png" },
-                                { src: "/img/portfolio/Koko2.png" },
+                                { src: "/img/portfolio/koko.jpg" },
+                                { src: "/img/portfolio/koko2.jpg" },
                             ] } />
                 <div className="col-lg-4 col-md-6 portfolio-item filter-Design">
                     <div className="portfolio-wrap">
