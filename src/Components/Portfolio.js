@@ -516,7 +516,7 @@ const [open36, setOpen36] = React.useState(false);
                         close={ () => setOpen25( false ) }
                         slides={ [
                                 { src: "/img/portfolio/Mug1.jpg" },
-                                { src: "/img/portfolio/Mug4.jpg" },
+                                { src: "/img/portfolio/Mug4.png" },
                                 { src: "/img/portfolio/Mug2.jpg" },
                                 { src: "/img/portfolio/Mug3.jpg" },
                             ] } />
