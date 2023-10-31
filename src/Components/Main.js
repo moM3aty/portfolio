@@ -33,7 +33,7 @@ const Main = () => {
                 <section id="services" className="services">
                     <Services/>
                 </section>
-                <section id="contact" className="contact">
+                <section id="contact" className="contact  section-bg">
                     <Contact/>
                 </section>
             </main>
