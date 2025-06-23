@@ -1,11 +1,3 @@
-/*
- * Full-stack Portfolio Main JavaScript File
- * Author: Mohamed Aboelmaaty
- * Version: 1.4
- * Last Updated: June 24, 2025
- */
-
-// Set the workerSrc for PDF.js library
 pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';
 
 document.addEventListener('DOMContentLoaded', () => {
