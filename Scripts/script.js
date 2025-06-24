@@ -1,3 +1,11 @@
+/*
+ * Full-stack Portfolio Main JavaScript File
+ * Author: Mohamed Aboelmaaty
+ * Version: 1.4
+ * Last Updated: June 24, 2025
+ */
+
+// Set the workerSrc for PDF.js library
 pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.11.338/pdf.worker.min.js';
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -494,15 +502,46 @@ document.addEventListener('DOMContentLoaded', () => {
         sidebar.classList.toggle('is-open');
         mobileMenuToggle.querySelector('i').className = sidebar.classList.contains('is-open') ? 'fas fa-times' : 'fas fa-bars';
     });
+if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+        e.preventDefault(); 
 
-    if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            getElem('#form-status').textContent = 'Thank you for your message!';
-            getElem('#form-status').style.color = 'var(--gold-light)';
-            setTimeout(() => { getElem('#form-status').textContent = ''; contactForm.reset(); }, 4000);
-        });
-    }
+        const name = contactForm.querySelector('[name="name"]').value;
+        const email = contactForm.querySelector('[name="email"]').value;
+        const message = contactForm.querySelector('[name="message"]').value;
+        const formStatus = getElem('#form-status');
+
+        if (!name || !email || !message) {
+            formStatus.textContent = 'Please fill out all fields.';
+            formStatus.style.color = '#F7D060'; 
+            setTimeout(() => { formStatus.textContent = ''; }, 3000);
+            return;
+        }
+
+        const yourWhatsAppNumber = '201275844735';
+
+        const whatsappMessage = `Hello Mohamed,
+
+Name: ${name}
+Email: ${email}
+
+Message:
+${message}`;
+
+        const encodedMessage = encodeURIComponent(whatsappMessage);
+
+        const whatsappUrl = `https://wa.me/${yourWhatsAppNumber}?text=${encodedMessage}`;
+
+        window.open(whatsappUrl, '_blank');
+
+        formStatus.textContent = 'Thank you! Redirecting to WhatsApp...';
+        formStatus.style.color = 'var(--gold-light)';
+        setTimeout(() => {
+            formStatus.textContent = '';
+            contactForm.reset();
+        }, 4000);
+    });
+}
 
     if (portfolioFilters) {
         portfolioFilters.addEventListener('click', (e) => {
