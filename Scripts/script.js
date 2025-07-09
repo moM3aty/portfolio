@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { category: 'websites', titleKey: 'p7-title', image: '../images/Websites/alakhoa.jpg', liveUrl: 'https://alakhoa.runasp.net/', repoUrl: 'https://github.com/moM3aty/Alakhoa.git' },
         { category: 'websites', titleKey: 'p8-title', image: '../images/Websites/Dublin-Almaseya.jpg', liveUrl: 'https://almasydublin.runasp.net/', repoUrl: 'https://github.com/moM3aty/Dublin-Almaseya.git' },
         { category: 'websites', titleKey: 'p16-title', image: '../images/Websites/YummyFood.png', liveUrl: 'https://yummyfoodagricultural.com/', repoUrl: 'https://github.com/moM3aty/YummyFood.git' },
-        { category: 'websites', titleKey: 'p16-title', image: '../images/Websites/RichMinds.png', liveUrl: 'https://richminds.ae/', repoUrl: 'https://github.com/moM3aty/Rich-Minds.git' },
+        { category: 'websites', titleKey: 'p17-title', image: '../images/Websites/RichMinds.png', liveUrl: 'https://richminds.ae/', repoUrl: 'https://github.com/moM3aty/Rich-Minds.git' },
         { category: 'websites', titleKey: 'p9-title', image: '../images/Websites/E-Marketing.jpg', liveUrl: 'https://e-marketing-g80d1c9kq-mohamed-aboelm3atys-projects.vercel.app/', repoUrl: 'https://github.com/moM3aty/E-Marketing.git' },
         { category: 'websites', titleKey: 'p10-title', image: '../images/Websites/Town.png', liveUrl: 'https://the-town-alpha.vercel.app/', repoUrl: 'https://github.com/moM3aty/theTown.git' },
         { category: 'websites', titleKey: 'p11-title', image: '../images/Websites/XTeam.jpg', liveUrl: 'https://xt-eam.vercel.app/', repoUrl: 'https://github.com/moM3aty/XTeam.git' },
