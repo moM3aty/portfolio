@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const portfolioData = [
         { category: 'websites', titleKey: 'p1-title', image: '../images/Websites/Mobil.png', liveUrl: 'https://www.mobiloil-eg.com/', repoUrl: 'https://github.com/moM3aty/Mobil-Oil.git' },
         { category: 'websites', titleKey: 'p2-title', image: '../images/Websites/importersguide.jpg', liveUrl: 'https://importersguide.online/', repoUrl: 'https://github.com/moM3aty/Importers-Guide.git' },
-        { category: 'websites', titleKey: 'p18-title', image: '../images/Websites/oxford-college.png', liveUrl: 'https://oxford-college-pst.uk/', repoUrl: 'https://github.com/moM3aty/Oxford-College.git' },
+        { category: 'websites', titleKey: 'p18-title', image: '../images/Websites/oxford-college.png', liveUrl: 'https://oxford-college-edu.com/', repoUrl: 'https://github.com/moM3aty/Oxford-College.git' },
         { category: 'websites', titleKey: 'p19-title', image: '../images/Websites/Sky-Health.png', liveUrl: 'https://skyhealth-eg.com/', repoUrl: 'https://github.com/moM3aty/Sky-Health.git' },
         { category: 'websites', titleKey: 'p3-title', image: '../images/Websites/kudzuka.jpg', liveUrl: 'https://kudzuka-nv7k0pzdc-mom3aty.vercel.app/', repoUrl: 'https://github.com/moM3aty/KUDZUKA.git' },
         { category: 'websites', titleKey: 'p20-title', image: '../images/Websites/albayan.png', liveUrl: 'https://albayan.tech/', repoUrl: 'https://github.com/moM3aty/Albayan.git' },
