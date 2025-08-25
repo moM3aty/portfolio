@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { category: 'websites', titleKey: 'p19-title', image: '../images/Websites/Sky-Health.png', liveUrl: 'https://skyhealth-eg.com/', repoUrl: 'https://github.com/moM3aty/Sky-Health.git' },
         { category: 'websites', titleKey: 'p20-title', image: '../images/Websites/albayan.png', liveUrl: 'https://albayan.tech/', repoUrl: 'https://github.com/moM3aty/Albayan.git' },
         { category: 'websites', titleKey: 'p18-title', image: '../images/Websites/oxford-college.png', liveUrl: 'https://oxford-college-edu.com/', repoUrl: 'https://github.com/moM3aty/Oxford-College.git' },
-        { category: 'websites', titleKey: 'p21-title', image: '../images/Websites/BioGC.png', liveUrl: 'https://biocggroup.com/', repoUrl: 'https://github.com/moM3aty/BioGC.git' },
+        { category: 'websites', titleKey: 'p21-title', image: '../images/Websites/BioGC.png', liveUrl: 'https://drive.google.com/file/d/1yW4CC8eMlD6K4KAeng3M10T47xJpzLfr/view?usp=sharing', repoUrl: 'https://github.com/moM3aty/BioGC.git' },
         { category: 'websites', titleKey: 'p22-title', image: '../images/Websites/GMTWEB.png', liveUrl: 'https://gmtweb.online/', repoUrl: 'https://github.com/moM3aty/GMTWEB.git' },
         { category: 'websites', titleKey: 'p2-title', image: '../images/Websites/importersguide.jpg', liveUrl: 'https://importersguide.online/', repoUrl: 'https://github.com/moM3aty/Importers-Guide.git' },
         { category: 'websites', titleKey: 'p4-title', image: '../images/Websites/Manufacturing-recipes.png', liveUrl: 'https://pgda.runasp.net/', repoUrl: 'https://github.com/moM3aty/Manufacturing-recipes.git' },
